@@ -1,4 +1,4 @@
-<Portfolio profile>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,48 +14,48 @@
             text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             padding: 20px;
         }
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             border: 5px solid #00f;
             display: block;
             margin: 0 auto 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 255, 0.5);
+            box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
             object-fit: cover;
         }
         h1 {
-            font-size: 2.5em;
-            text-shadow: 0 0 10px #00f;
+            font-size: 3em;
+            text-shadow: 0 0 15px #00f;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
         .btn {
             background: #00f;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             text-decoration: none;
             display: inline-block;
             border-radius: 5px;
             margin: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+            box-shadow: 0 0 15px rgba(0, 0, 255, 0.6);
             transition: 0.3s;
         }
         .btn:hover {
             background: #0055ff;
-            box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+            box-shadow: 0 0 25px rgba(0, 0, 255, 0.9);
         }
         section {
             margin: 50px 0;
-            padding: 20px;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            padding: 25px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.12);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
         }
     </style>
 </head>
@@ -64,26 +64,51 @@
         <div class="container">
             <img src="IMG_20241222_204244.jpg" alt="Prashant Kumar Singh" class="profile-img">
             <h1>Prashant Kumar Singh</h1>
-            <p>Programmer | NEET Aspirant | Stock Market Enthusiast</p>
-            <a href="#portfolio" class="btn">View My Work</a>
+            <p>Visionary Technologist | NEET Aspirant | Stock Market Expert</p>
+            <a href="#portfolio" class="btn">Explore My Work</a>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
     </header>
 
-    <section id="about">
+    <section id="skills">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Prashant Kumar Singh is a multifaceted professional excelling in software development, data analysis, web engineering, AI automation, and stock market analysis. As a NEET aspirant, he merges his scientific curiosity with cutting-edge technological expertise, ensuring a dynamic approach to both medical studies and digital innovation.</p>
-            <p>His technical proficiency spans Java, Python, and C++, allowing him to craft high-performance software solutions, scalable automation, and optimized algorithms. From building robust back-end infrastructures to architecting complex logic-driven applications, Prashant ensures efficient execution and seamless functionality.</p>
-            <p><strong>Innovating the Digital Realm – Web Development & Design</strong></p>
-            <p>Prashant specializes in full-stack web development, leveraging modern frameworks, interactive UI/UX, and back-end architecture. His expertise in HTML, CSS, JavaScript, and dynamic libraries enables him to create futuristic, high-performance web applications. His passion for aesthetic brilliance integrates minimalist yet visually striking design elements, ensuring user-centric, responsive experiences.</p>
-            <p><strong>Empowering Data-Driven Decisions – Analytics & AI</strong></p>
-            <p>Data is the backbone of modern strategy, and Prashant excels at transforming raw datasets into actionable insights. Using Pandas, NumPy, and Matplotlib, he uncovers market trends, financial projections, and data-driven solutions. His expertise in stock market analysis (NASDAQ, BSE, NSE) helps him evaluate market fluctuations, identify investment opportunities, and implement risk-mitigation strategies.</p>
-            <p>He further integrates AI-powered automation into workflows, employing machine learning, predictive modeling, and AI-driven content generation. His knowledge of neural networks and automation tools positions him at the forefront of technological advancement.</p>
-            <p><strong>Gaming & Digital Content Creation – The Art of Engagement</strong></p>
-            <p>As a gaming enthusiast, Prashant has contributed to digital content creation through scriptwriting, video editing, and immersive storytelling. His work includes designing YouTube thumbnails, graphics, and engaging narratives for international gaming creators.</p>
-            <p><strong>Bridging Science & Technology – The Future of Innovation</strong></p>
-            <p>As a NEET aspirant, Prashant’s interest in medical sciences intersects with his technological expertise, fueling his ambition to integrate AI, data analytics, and automation into healthcare solutions. His goal is to revolutionize medical research, diagnostics, and education through innovative technological applications.</p>
+            <h2>Skills</h2>
+            <p>Expert in Java, Python, and C++. Full-stack Web Development, AI & Automation, Data Analysis, and Advanced Stock Market Trading.</p>
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="container">
+            <h2>Works</h2>
+            <p>Developed high-performance web applications, AI automation tools, and predictive analytics systems. Designed YouTube thumbnails and logos for international clients.</p>
+        </div>
+    </section>
+
+    <section id="plans">
+        <div class="container">
+            <h2>Future Plans</h2>
+            <p>Revolutionizing AI-driven healthcare solutions, expanding financial AI predictions, and enhancing automation in business strategies.</p>
+        </div>
+    </section>
+
+    <section id="goals">
+        <div class="container">
+            <h2>Goals</h2>
+            <p>Master AI-driven automation, contribute to futuristic medical applications, and lead innovative digital transformation projects.</p>
+        </div>
+    </section>
+
+    <section id="ideas">
+        <div class="container">
+            <h2>Ideas & Innovations</h2>
+            <p>Integrating AI into learning systems for NEET aspirants, developing smart web automation tools, and enhancing market prediction algorithms.</p>
+        </div>
+    </section>
+
+    <section id="insights">
+        <div class="container">
+            <h2>Industry Insights</h2>
+            <p>Exploring AI's impact on web automation, stock market dynamics, and future trends in medical AI integration.</p>
         </div>
     </section>
 
