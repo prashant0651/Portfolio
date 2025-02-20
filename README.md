@@ -1,4 +1,4 @@
-<portfolio>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,7 @@
             display: block;
             margin: 0 auto 20px;
             box-shadow: 0 0 15px rgba(0, 0, 255, 0.5);
+            object-fit: cover;
         }
         h1 {
             font-size: 2.5em;
@@ -61,7 +62,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="profile.jpg" alt="Prashant Kumar Singh" class="profile-img">
+            <img src="IMG_20241222_204244.jpg" alt="Prashant Kumar Singh" class="profile-img">
             <h1>Prashant Kumar Singh</h1>
             <p>Programmer | NEET Aspirant | Stock Market Enthusiast</p>
             <a href="#portfolio" class="btn">View My Work</a>
